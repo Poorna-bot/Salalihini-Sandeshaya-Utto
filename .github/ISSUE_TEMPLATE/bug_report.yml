@@ -1,0 +1,27 @@
+name: Bug Report
+description: Report a visual, 3D, accessibility, or navigation problem on the website.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: route
+    attributes:
+      label: Route or URL
+      description: Where did the issue happen?
+      placeholder: "e.g. /verse/22 or /map"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe what you saw versus what you expected.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device and browser
+      placeholder: "e.g. Android Chrome, macOS Safari, Calm mode ON/OFF"
+    validations:
+      required: false

@@ -1,0 +1,19 @@
+name: Feature Request
+description: Propose a thoughtful improvement that keeps the calm, hand-crafted feel of the site.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to add or improve?
+      description: Explain how it helps readers understand or enjoy the poem.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any examples, sketches, or notes on performance and accessibility.
+    validations:
+      required: false

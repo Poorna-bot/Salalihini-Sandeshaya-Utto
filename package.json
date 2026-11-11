@@ -1,0 +1,63 @@
+{
+  "name": "salalihini-sandeshaya",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read all 111 verses of the fifteenth-century Sinhala messenger poem Salalihini Sandeshaya (The Starling's Message) with explanations in Sinhala and English, set in a calm 3D world from Kotte to Kelaniya.",
+  "license": "MIT",
+  "author": "Poorna Thalisha (https://github.com/Poorna-bot)",
+  "homepage": "https://github.com/Poorna-bot/Salalihini-Sandeshaya-Kavya#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Poorna-bot/Salalihini-Sandeshaya-Kavya.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Poorna-bot/Salalihini-Sandeshaya-Kavya/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Poorna-bot"
+  },
+  "keywords": [
+    "sinhala",
+    "sri-lanka",
+    "salalihini-sandeshaya",
+    "sandesa-kavya",
+    "elu-sinhala",
+    "poetry",
+    "threejs",
+    "nextjs"
+  ],
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.1.0",
+    "@react-three/postprocessing": "^3.0.4",
+    "motion": "^14.0.0",
+    "next": "16.4.0",
+    "postprocessing": "^6.37.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4.1.0",
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/three": "^0.186.0",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "16.4.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.8.2",
+    "@tailwindcss/postcss": "^4.1.0",
+    "postcss": "^8.5.3"
+  }
+}

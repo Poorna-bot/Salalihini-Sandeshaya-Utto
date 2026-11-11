@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Salalihini Sandeshaya · The Starling's Message"
+message: "If you reference this digital edition or its bilingual explanations, please cite it using the metadata below."
+type: software
+authors:
+  - alias: Poorna-bot
+    name: "Poorna Thalisha"
+repository-code: "https://github.com/Poorna-bot/salalihini-sandeshaya"
+url: "https://salalihini-sandeshaya.vercel.app"
+license: MIT
+license-url: "https://github.com/Poorna-bot/salalihini-sandeshaya/blob/main/LICENSE"
+keywords:
+  - sinhala-literature
+  - salalihini-sandeshaya
+  - sandesa-kavya
+  - digital-humanities
+  - sri-lanka
+version: 0.1.0
+date-released: "2026-11-10"

@@ -1,0 +1,36 @@
+name: Content Correction (Verse or Explanation)
+description: Suggest a correction or clearer wording for a verse, Sinhala meaning, English meaning, or note.
+title: "[Verse NN]: "
+labels: ["content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the text or explanations! You do not need to write code to submit this form.
+  - type: input
+    id: verse
+    attributes:
+      label: Verse number(s)
+      description: Which verse (1–111) or page does this apply to?
+      placeholder: "e.g. Verse 42"
+    validations:
+      required: true
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which part needs attention?
+      options:
+        - Modern Sinhala explanation (si)
+        - English explanation (en)
+        - Elu verse transcription (poem.json)
+        - Context note or General sense badge
+        - About page / Map blurb
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What should it say instead, and why?
+      description: Share your suggested wording in your own words (please do not paste copyrighted commentary verbatim).
+    validations:
+      required: true
